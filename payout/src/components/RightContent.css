@@ -1,0 +1,135 @@
+.rightcontainer{
+    width:100%;
+    height:500px;
+}
+.topdiv{
+    display: flex;
+width: 100%;
+padding: 12px 32px;
+align-items: center;
+gap: 16px;
+border-bottom: 1px solid #D9D9D9;
+justify-content: space-between;
+background: var(--Black-100, #FFF);
+}
+.searchdiv{
+    padding: 9px 16px;
+    width:30%;
+align-items: center;
+gap: var(--Spacing-spacing-04, 8px);
+/* justify-content: space-between; */
+align-items: center;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 6px;
+background: #F2F2F2;
+}
+.searchdiv input{
+    width:80%;
+    height: 24px;
+    border: none;
+    background: #F2F2F2;
+}
+.overview{
+    display: flex;
+width: 100%;
+flex-direction: column;
+/* align-items: flex-start; */
+gap: 32px;
+padding: 12px 32px;
+background: var(--Black-98, #FAFAFA);
+}
+.overview .top{
+    display: flex;
+    justify-content: space-between;
+    /* background: var(--Black-90, #E6E6E6); */
+}
+.overview select{
+    border-radius: 4px;
+border: 1px solid var(--Black-85, #D9D9D9);
+background: var(--Black-100, #FFF);
+padding: 5px;
+}
+
+.gridDiv{
+    display: flex;
+    gap:32px;
+    width:100%;
+    justify-content: space-between;
+    /* background-color: var(--Black-100, #FFF); */
+    /* background: var(--Black-90, #E6E6E6); */
+}
+.gridDiv .first{
+    display: flex;
+height: 130px;
+padding: var(--Spacing-spacing-07, 20px);
+width: 370.67px;
+flex-direction: column;
+gap:16px;
+align-self: stretch;
+border-radius: var(--Spacing-spacing-04, 8px);
+background: var(--Primary-Blue, #146EB4);
+color:white;
+}
+.first > div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.gridDiv .second{
+    display: flex;
+padding: var(--Spacing-spacing-07, 20px);
+justify-content: space-between;
+width: 370.67px;
+flex-direction: column;
+/* align-items: flex-start; */
+flex: 1 0 0;
+border-radius: var(--Spacing-spacing-04, 8px);
+background: var(--Black-100, #FFF);
+/* Shadow/Card */
+box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+
+}
+.gridDiv .third{
+    display: flex;
+padding: var(--Spacing-spacing-07, 20px);
+justify-content: space-between;
+flex-direction: column;
+/* align-items: flex-start; */
+gap: 16px;
+flex: 1 0 0;
+border-radius: var(--Spacing-spacing-04, 8px);
+background: var(--Black-100, #FFF);
+/* Shadow/Card */
+box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+
+}
+.gridDiv .btm{
+    display: flex;
+width: 370.67px;
+padding: var(--Spacing-spacing-04, 8px) 24px;
+justify-content: space-between;
+align-items: flex-start;
+position: absolute;
+margin-left: -1.2%;
+/* bottom: 0px; */
+margin-top: 6.5%;
+border-radius: var(--Spacing-spacing-04, 8px);
+background: var(--Hover-Blue, #0E4F82);
+
+}
+.tablediv{
+    padding: 12px 0px;
+}
+
+.tablediv button{
+    display: flex;
+padding: 6px 16px;
+align-items: center;
+gap: 6px;
+border-radius: 40px;
+border: none;
+background: var(--Black-90, #E6E6E6);
+/* background: var(--Primary-Blue, #146EB4); */
+
+}
